@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-top">
+            <div class="header-top-container">
+                <div class="logo">
+                    <a href="#">
+                        <img src="./images/logo.svg" alt="логотип">
+                    </a>
+                </div>
+                <p class="header-text">Ноутбуки в Ташкенте из первых рук. Цены №1 в Узбекистане!</p>
+                <form action="" method="POST" class="search-form">
+                    <label>
+                      <input
+                        class="search-input"
+                        name=""
+                        type="search"
+                        placeholder="Поиск по товарам..."
+                      />
+                      <a href="#"><img src="./images/search-icon.svg" alt="" /></a>
+                    </label>
+                </form>    
+                <div class="header-langs">
+                    <a href="#" class="header-lang">
+                        <img src="./images/ru-flag.svg" alt="флаг России">
+                    </a>
+                    <a href="#" class="header-lang">
+                        <img src="./images/uk-flag.png" alt="флаг Великобритании">
+                    </a>
+                </div>
+                <div class="dropdown-container">
+                    <button class="button header-top-button" id="openDropdown">
+                        Связаться с менеджеров
+                    </button>
+                    <div class="dropdown" id="dropdownMenu">
+                        <a href="tel:+998909613853">Музаффар +998 (90) 961-38-53</a>
+                        <a href="tel:+998909957640">Кирилл +998 (90) 995-76-40</a>
+                        <a href="tel:+998884962822">Shox +998 (88) 496-28-22</a>
+                        <a href="tel:+998334861122">Тимур +998 (33) 486-11-22</a>
+                        <a href="tel:+998977350119">Баходир +998 (97) 735-01-19</a>
+                        <a href="tel:+998909945949">Шохрух +998 (90) 994-59-49</a>
+                        <a href="tel:+998931845614">Александр +998 93 184 56 14</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <button class="button header-bottom-button">
+                <span>Каталог</span>
+                <img src="./images/catalog-icon.svg" alt="">
+            </button>
+            <nav class="menu">
+                <ul class="menu-items">
+                    <li class="menu-item">
+                        <a href="#" class="menu-item-link">О компании</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-item-link">Блог</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-item-link">Доставка и оплата</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-item-link">Рассрочка</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-item-link">Наши контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a class="profile" href="#">
+                    <img src="./images/profile-icon.svg" alt="">
+                </a>
+                <a class="shop" href="#">
+                    <img src="./images/shop-icon.svg" alt="">
+                    <p class="shop-product-item">2</p>
+                </a>
+                <p class="total-sum"><span>22 230 500</span> сум</p>
+            </div>
+        </div>
+
+        <div class="header-top-mobile">
+            <div class="header-top-mobile-info">
+                <button class="button header-bottom-button" id="openMobileMenu">
+                    <img src="./images/catalog-icon.svg" alt="">
+                </button>
+                <div class="logo">
+                    <a href="#">
+                        <img src="./images/logo.svg" alt="логотип">
+                    </a>
+                </div>
+            </div>
+            <div class="header-top-mobile-actions">
+                <div class="header-langs">
+                    <a href="#" class="header-lang">
+                        <img src="./images/ru-flag.svg" alt="флаг России">
+                    </a>
+                    <a href="#" class="header-lang">
+                        <img src="./images/uk-flag.png" alt="флаг Великобритании">
+                    </a>
+                </div>
+                <a class="profile" href="#">
+                    <img src="./images/profile-icon.svg" alt="">
+                </a>
+                <a class="shop" href="#">
+                    <img src="./images/shop-icon.svg" alt="">
+                    <p class="shop-product-item">2</p>
+                </a>
+            </div>
+        </div>
+        <div class="header-bottom-mobile">
+            <p class="header-text">Ноутбуки в Ташкенте из первых рук. Цены №1 в Узбекистане!</p>
+                <form action="" method="POST" class="search-form">
+                    <label>
+                      <input
+                        class="search-input"
+                        name=""
+                        type="search"
+                        placeholder="Поиск по товарам..."
+                      />
+                      <a href="#">
+                        <svg class="search-icon" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21.2137 21.0002L16.8699 16.7002M19.1934 11C19.1934 15.4183 15.5752 19 11.112 19C6.64872 19 3.03055 15.4183 3.03055 11C3.03055 6.58172 6.64872 3 11.112 3C15.5752 3 19.1934 6.58172 19.1934 11Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </a>
+                    </label>
+                </form>    
+        </div>
+        <div class="mobile-menu">
+            <div class="mobile-menu-item" id="openCatalog">
+                <div class="mobile-menu-icon">
+                    <img src="./images/catalog-icon-black.svg" alt="">
+                </div>
+                <p>Каталог</p>
+                <img class="open-catalog" src="./images/open-icon.svg" alt="">
+            </div>
+            <div class="mobile-menu-item" id="openCatalog">
+                <div class="mobile-menu-icon">
+                    <img src="./images/profile-icon-black.svg" alt="">
+                </div>
+                <p>Личный кабинет</p>
+            </div>
+            <div class="mobile-menu-item" id="openCatalog">
+                <div class="mobile-menu-icon">
+                    <img src="./images/shop-icon-black.svg" alt="">
+                </div>
+                <p>Корзина</p>
+                <p class="mobile-menu-total-sum"><span>22 230 500</span> сум</p>
+            </div>
+            <div class="mobile-menu-item">
+                <p>О компании</p>
+            </div>
+            <div class="mobile-menu-item">
+                <p>Блог</p>
+            </div>
+            <div class="mobile-menu-item">
+                <p>Доставка и оплата</p>
+            </div>
+            <div class="mobile-menu-item">
+                <p>Рассрочка</p>
+            </div>
+            <div class="mobile-menu-item">
+                <p>Наши контакты</p>
+            </div>
+            <button class="button header-top-button">
+                Связаться с менеджеров
+            </button>
+            <div class="dropdown-mobile">
+                    <a href="tel:+998909613853">Музаффар +998 (90) 961-38-53</a>
+                    <a href="tel:+998909957640">Кирилл +998 (90) 995-76-40</a>
+                    <a href="tel:+998884962822">Shox +998 (88) 496-28-22</a>
+                    <a href="tel:+998334861122">Тимур +998 (33) 486-11-22</a>
+                    <a href="tel:+998977350119">Баходир +998 (97) 735-01-19</a>
+                    <a href="tel:+998909945949">Шохрух +998 (90) 994-59-49</a>
+                    <a href="tel:+998931845614">Александр +998 93 184 56 14</a>
+            </div>
+        </div>
+        <div class="catalog">
+            <div class="mobile-menu-item" id="closeCatalog">
+                <img src="./images/close-icon.svg" alt="">
+                <span>Назад</span>
+            </div>
+            <div class="mobile-menu-item" style="background: #fcfcfc;">
+                <span style="color: #479ff2;">Каталог</span>
+            </div>
+            <div class="mobile-menu-item">
+                <span>Название товара</span>
+            </div>
+            <div class="mobile-menu-item">
+                <span>Название товара</span>
+            </div>
+            <div class="mobile-menu-item">
+                <span>Название товара</span>
+            </div>
+            <div class="mobile-menu-item">
+                <span>Название товара</span>
+            </div>
+            <div class="mobile-menu-item">
+                <span>Название товара</span>
+            </div>
+            <div class="mobile-menu-item">
+                <span>Название товара</span>
+            </div>
+            <div class="mobile-menu-item">
+                <span>Название товара</span>
+            </div>
+            <div class="mobile-menu-item">
+                <span>Название товара</span>
+            </div>
+            <div class="mobile-menu-item">
+                <span>Название товара</span>
+            </div>
+            <div class="mobile-menu-item">
+                <span>Название товара</span>
+            </div>
+            <div class="mobile-menu-item">
+                <span>Название товара</span>
+            </div>
+        </div>
+    </header>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

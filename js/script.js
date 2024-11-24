@@ -6,7 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
     let mobileMenu = document.querySelector(".mobile-menu");
     let openCatalog = document.getElementById("openCatalog");
     let catalog = document.querySelector(".catalog");
-
+    let openDesktopCatalog = document.querySelector("#openDesktopCatalog");
+    let desktopCatalog = document.querySelector(".desktop-catalog");
+    
     dropdownButton.addEventListener('click', () => {
         dropdownMenu.classList.toggle('show');
     });
@@ -25,6 +27,9 @@ document.addEventListener('DOMContentLoaded', function() {
     })
     closeCatalog.addEventListener("click", () =>{
         catalog.classList.remove('show');
+    })
+    openDesktopCatalog.addEventListener("click", () => {
+        desktopCatalog.classList.toggle('show');
     })
 });
 
